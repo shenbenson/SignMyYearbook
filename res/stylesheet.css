@@ -1,0 +1,130 @@
+body {
+    background-image: url("/res/y-so-serious-white.png");
+    background-repeat: repeat;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently*/
+}
+
+.hidden {
+    display: none;
+}
+
+/******* Signing Yearbook Page *******/
+
+#message-field {
+    padding: 8px;
+    border: 1px solid black;
+    width: 500px;
+    height: 200px;
+    font-family: Georgia;
+}
+
+#entry-form-sender {
+    padding-left: 8px;
+    font-family: Georgia;
+    height: 30px;
+    border-radius: 0;
+    width: 200px;
+    border: 1px solid black;
+}
+
+#entry-form {
+    background-color: white;
+    margin-top: 18vh;
+    margin-left: 30%;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+/******* View Yearbook Page *******/
+
+#remove-message-button {
+    font-size: 20px;
+    display: none;
+    background-color: white;
+    border: none;
+    float: right;
+    transition: 0.2s;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    outline: none;
+}
+
+#remove-message-button:hover {
+    background-color: #ff2626;
+    cursor: pointer;
+}
+
+#entry {
+    border: 2px solid black;
+    display: inline-block;
+    margin: 20px;
+    transition: 0.2s;
+    max-width: 22%;
+    vertical-align: top;
+    position: sticky;
+    background-color: white;
+}
+
+#entry:hover {
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#entry:hover input {
+    display: block;
+}
+
+#entry-data {
+    padding-left: 25px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#get-sign-link {
+    float: right;
+    margin-right: 15px;
+    height: 30px;
+    background-color: white;
+    border-radius: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+/******* Landing Page *******/
+ 
+#landing-p {
+    font-size: 75px;
+    margin-top: 30vh;
+    margin-left: 20%;
+    position: absolute;
+}
+
+#landing-d {
+    font-size: 15px;
+    margin-top: 29vh;
+    margin-left: 20%;
+    position: absolute;
+}
+
+#landing-e {
+    font-size: 15px;
+    position: absolute;
+    right: 29%;
+    bottom: 20%;
+}
+
+#reg-link {
+    font-size: 15px;
+    position: absolute;
+    right: 29%;
+    bottom: 16%;
+}
