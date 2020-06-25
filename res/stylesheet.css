@@ -18,7 +18,7 @@ body {
 #message-field {
     padding: 8px;
     border: 1px solid black;
-    width: 500px;
+    width: 400px;
     height: 200px;
     font-family: Georgia;
 }
@@ -35,7 +35,7 @@ body {
 #entry-form {
     background-color: white;
     margin-top: 18vh;
-    margin-left: 30%;
+    margin-left: 25%;
     border: 2px solid black;
     display: inline-block;
     padding: 40px;
@@ -126,5 +126,5 @@ body {
     font-size: 15px;
     position: absolute;
     right: 29%;
-    bottom: 16%;
+    bottom: 17%;
 }
