@@ -61,7 +61,7 @@
             <p id="entry-data">
                 <b>
                 <?php 
-                    echo $entry["sender"], " wrote:</b><br><br>";
+                    echo $entry["sender"], "</b><br><br>";
                     echo $message; 
                 ?> 
             </p>

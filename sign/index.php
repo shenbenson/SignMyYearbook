@@ -48,9 +48,9 @@
                 <br><br>
                 Message
                 <br><br>
-                <textarea onblur="textCounter(this,this.form.counter,1000);" onkeyup="textCounter(this,this.form.counter,1000);" name="message" id="message-field" maxlength=1000 required></textarea>
+                <textarea onblur="textCounter(this,this.form.counter,2000);" onkeyup="textCounter(this,this.form.counter,2000);" name="message" id="message-field" maxlength=2000 required></textarea>
                 <br>
-                <input onblur="textCounter(this.form.recipients,this,1000);" disabled  onfocus="this.blur();" tabindex="999" maxlength="3" size="3" value="1000" name="counter" style="width: 30px; text-align: center;">
+                <input onblur="textCounter(this.form.recipients,this,2000);" disabled  onfocus="this.blur();" tabindex="999" maxlength="3" size="3" value="2000" name="counter" style="width: 30px; text-align: center;">
                 characters remaining.
                 <br><br><br>
                 <input type="submit" value="Sign!">
